@@ -1,0 +1,951 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.formbox{
+    width: 100%;
+    float: left;
+    margin: 20px 0px;
+}
+.header{
+    width: 100%;
+    float: left;
+    background-color: #eee4e7;
+  
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col6{
+    width: 50%;
+    float: left;
+}
+.col6 h2{
+    font-size: 24px;
+    color: #fd646f;
+}
+.col6 h2 span{
+    color: black;
+}
+.menu{
+    display: block;
+    text-align: right;
+}
+.menu li{
+    display: block;
+    list-style: none;
+    display: inline-block;
+}
+.menu li:hover{
+    border: 2px solid red;
+    color: #0037ce;
+}
+.menu li a{
+    font-size: 16px;
+    padding: 24px;
+}
+.form{
+    text-align: center;
+    padding: 90px;
+}
+.form h1{
+    font-size: 38px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+.form h1 span{
+    color: #fd646f;
+}
+.form p{
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 20px;
+}
+.btn-primary{
+    padding: 18px 32px;
+    font-size: 18px;
+    color: white;
+    background-color: #fd646f;
+    border-radius: 7px;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: #000;
+    transition: 2s;
+}
+.form img{
+    padding: 30px 0px;
+    width: 90%;
+    height: 420px;
+}
+.banner{
+    width: 100%;
+    float: left;
+}
+.bannerleft{
+    width: 100%;
+    padding: 50px 0px 0px;
+}
+.inerleft{
+    display: flex;
+}
+.inerleft img{
+    width: 50%;
+    padding: 10px;
+}
+.inerright{
+    display: flex;
+}
+.inerright img{
+    width: 50%;
+    padding: 10px;
+}
+.bannerright{
+    width: 100%;
+    padding: 140px 0px 0px 55px;
+}
+.bannerright h1{
+    font-size: 35px;
+    line-height: 1.2em;
+    color: #727272;
+}
+.bannerright h1 span{
+    color: black;
+}
+.bannerright p{
+    width: 90%;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.loginform{
+    width: 100%;
+    float: left;
+    padding: 70px 0px;
+   
+}
+.formgroup{
+    width: 100%;
+
+}
+.formgroup h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0px 15px;
+}
+.formgroup p{
+    font-size: 16px;
+    margin: 18px 0px;
+}
+.formcontrol{
+    padding: 30px 0px;
+    position: relative;
+}
+.formcontrol h3{
+    font-size: 17px;
+}
+.formcontrol p{
+    font-size: 15px;
+    color: #7e7676bc;
+}
+.bg01{
+    width: 88%;
+    background-color: #f9f1f1;
+    border-radius: 5px;
+    margin: 0px 0px 19px;
+}
+.bg01:hover{
+    border: 3px solid rgb(23, 134, 245);
+}
+.imag img{
+    width: 100%;
+    position: relative;
+}
+.imag:hover{
+    border: 3px solid rgb(23, 134, 245);
+}
+.logu{
+    width: 40%;
+    position: absolute;
+}
+.inerlogu{
+    width: 33%;
+    background:  #fd646f;
+    position: absolute;
+    transform: translate(1px, -138px);
+    padding: 36px 10px;
+    border-radius: 7px;
+    color: rgb(243, 235, 235);
+}
+/* .inerlogu{
+    width: 45%;
+    background:  #fd646f;
+    padding: 49px 4px;
+    border-radius: 7px;
+    color: rgb(243, 235, 235);
+} */
+.inerlogu h1{
+    font-size: 33px;
+    text-align: center;
+    font-weight: 700;
+}
+.inerlogu p{
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+.focus{
+    width: 100%;
+    float: left;
+    padding: 40px 0px;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col12{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.col12 h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.col12 p{
+    font-size: 15px;
+    margin: 8px 0px;
+}
+
+.loginbox{
+    width: 100%;
+    float: left;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col3{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.inerbox img{
+    width: 25%;
+    text-align: center;
+    
+}
+.inerbox1{
+    padding: 20px;
+    width: 68%;
+}
+.inerbox{
+    border: 2px solid red;
+    padding: 50px 20px;
+    border-radius: 7px;
+}
+.inerbox:hover{
+    cursor: pointer;
+    border: 4px solid rgb(10, 108, 205);
+}
+.inerbox h1{
+    font-size: 27px;
+    font-weight: 700;
+    padding: 5px 0px;
+}
+.inerbox p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6b6161;
+}
+.beautiful{
+    width: 100%;
+    float: left;
+    padding: 80px 0px 0px;
+}
+.feature{
+    width: 100%;
+    float: left;
+    padding: 10px 0px 40px;
+}
+.inerfeature{
+    width: 100%;
+}
+.inerfeature img{
+    width: 45%;
+    text-align: center;
+}
+.footer{
+    width: 65%;
+    float: left;
+    background-color:#fd646f;
+    margin: 0px 293px;
+    padding: 10px;
+    border-radius: 7px;
+    color: rgb(234, 214, 214);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:279px) and (max-width:319px){
+    .container{
+        width: 90%;
+        margin: 0px auto;
+       }
+       .row{
+        width: 100%;
+        float: left;
+       }
+       .col12{
+        width: 100%;
+        float: left;
+       }
+       .col6{
+        width: 100%;
+        float: left;
+       }
+       .col3{
+        width: 100%;
+        float: left;
+       }
+       .col6 h2{
+        font-size: 18px;
+        text-align: center;
+       }
+       .menu {
+        display: block;
+        text-align: center;
+       }
+       .menu li a{
+        font-size: 12px;
+            padding: 6px;
+       }
+       .form{
+        padding: 0px ;
+       }
+       .form h1{
+        font-size: 18px;
+        padding: 60px 0px 0px;
+       }
+       .form p{
+        font-size: 11px;
+        margin: 4px 0px 13px;
+       }
+       .btn-primary{
+        padding: 8px;
+        font-size: 12px;
+       }
+       .form img{
+        width: 82%;
+        height: 143px;
+        text-align: center;
+        padding: 10px;
+       }
+       .bannerleft{
+        width: 85%;
+        padding: 10px 0px 0px;
+       }
+       .inerright{
+        width: 85%;
+        padding: 0px;
+       }
+       .bannerright{
+        padding: 10px 0px 0px;
+        text-align: center;
+       }
+       .bannerright h1{
+        font-size: 20px;
+       }
+       .bannerright p{
+        font-size: 11px;
+        margin: 0px;
+       }
+
+
+       
+
+       .loginform{
+        padding: 20px 0px;
+       }
+       .formgroup h1{
+        width: 100%;
+        font-size: 17px;
+        text-align: center;
+        margin: 0px;
+       }
+       .formgroup p{
+        font-size: 12px;
+        text-align: center;
+        margin: 0px 0px 15px;
+       }
+       .formcontrol{
+        margin: 0px 15px 12px;
+       }
+       .formcontrol h3{
+        font-size: 15px;
+       }
+       .formcontrol p{
+        font-size: 12px;
+       }
+       .imag{
+        width: 87%;
+        margin: 0px 15px;
+       }
+       .logu{
+        width: ;
+       }
+       .inerlogu{
+        width: 55%;
+        transform: translate(14px, -123px);
+       }
+       .inerlogu h1{
+        font-size: 15px;
+       }
+       .inerlogu p{
+        font-size: 12px;
+       }
+
+
+       .focus{
+        padding: 18px 0px 0px;
+       }
+       .col12 h2{
+        font-size: 18px;
+       }
+       .col12 p{
+        font-size: 11px;
+        margin: 0px;
+        line-height: 1.2em;
+       }
+       .inerbox1{
+        padding: 12px 0px 0px;
+       }
+       .inerbox{
+        padding: 20px 18px;
+        width: 50%;
+        margin: 0px 64px;
+       }
+       .beautiful{
+        padding: 18px 0px 0px;
+       }
+       .feature{
+        padding: 10px 0px ;
+       }
+       .inerfeature{
+        width: 70%;
+        margin: 0px 43px
+       }
+       .footer{
+        margin: 0px 50px;
+        padding: 9px;
+       }
+       .footer p{
+        font-size: 10px;
+       }
+}
+@media (min-width:320px) and (max-width:480px){
+   .container{
+    width: 90%;
+    margin: 0px auto;
+   }
+   .row{
+    width: 100%;
+    float: left;
+   }
+   .col12{
+    width: 100%;
+    float: left;
+   }
+   .col6{
+    width: 100%;
+    float: left;
+   }
+   .col3{
+    width: 100%;
+    float: left;
+   }
+   .col6 h2{
+    font-size: 18px;
+    text-align: center;
+   }
+   .menu {
+    display: block;
+    text-align: center;
+   }
+   .menu li a{
+    font-size: 12px;
+        padding: 6px;
+   }
+   .form{
+    padding: 0px ;
+   }
+   .form h1{
+    font-size: 20px;
+    padding: 60px 0px 0px;
+   }
+   .form p{
+    font-size: 11px;
+    margin: 4px 0px 13px;
+   }
+   .btn-primary{
+    padding: 8px;
+    font-size: 12px;
+   }
+   .form img{
+    width: 82%;
+    height: 143px;
+    text-align: center;
+    padding: 10px;
+   }
+
+   .bannerleft{
+    width: 85%;
+    padding: 10px 0px 0px;
+   }
+   .inerright{
+    width: 85%;
+    padding: 0px;
+   }
+   .bannerright{
+    padding: 10px 0px 0px;
+    text-align: center;
+   }
+   .bannerright h1{
+    font-size: 22px;
+   }
+   .bannerright p{
+    font-size: 11px;
+    margin: 0px;
+   }
+   .imag{
+    width: 63%;
+    margin: 0px 53px;
+   }
+
+
+   .loginform{
+    padding: 20px 0px;
+   }
+   .formgroup h1{
+    width: 100%;
+    font-size: 17px;
+    text-align: center;
+    margin: 0px;
+   }
+   .formgroup p{
+    font-size: 12px;
+    text-align: center;
+    margin: 0px 0px 15px;
+   }
+   .formcontrol{
+    margin: 0px 15px 12px;
+   }
+   .formcontrol h3{
+    font-size: 15px;
+   }
+   .formcontrol p{
+    width: 85%;
+    font-size: 12px;
+   }
+   .imag{
+    width: 88%;
+    margin: 0px 16px;
+   }
+   .logu{
+
+   }
+   .inerlogu{
+    width: 55%;
+    transform: translate(16px, -126px);
+   }
+   .inerlogu h1{
+    font-size: 18px;
+   }
+   .inerlogu p{
+    font-size: 13px;
+   }
+
+   .focus{
+    padding: 18px 0px 0px;
+   }
+   .col12 h2{
+    font-size: 20px;
+   }
+   .col12 p{
+    font-size: 11px;
+    margin: 0px;
+    line-height: 1.2em;
+   }
+   .inerbox1{
+    padding: 12px 10px 0px;
+   }
+   .inerbox{
+    padding: 20px 18px;
+    width: 50%;
+    margin: 0px 64px;
+   }
+   .beautiful{
+    padding: 18px 0px 0px;
+   }
+   .feature{
+    padding: 10px 0px ;
+   }
+   .inerfeature{
+    width: 70%;
+    margin: 0px 43px
+   }
+   .footer{
+    margin: 0px 50px;
+    padding: 9px;
+   }
+   .footer p{
+    font-size: 10px;
+   }
+}
+@media (min-width:481px) and (max-width:767px){
+    .container{
+        width: 90%;
+        margin: 0px auto;
+       }
+       .row{
+        width: 100%;
+        float: left;
+       }
+       .col12{
+        width: 100%;
+        float: left;
+       }
+       .col6{
+        width: 100%;
+        float: left;
+       }
+       .col3{
+        width: 100%;
+        float: left;
+       }
+       .col6 h2{
+        font-size: 18px;
+        text-align: center;
+       }
+       .menu {
+        display: block;
+        text-align: center;
+       }
+       .menu li a{
+        font-size: 12px;
+            padding: 6px;
+       }
+       .form{
+        padding: 25px 0px 0px;
+       }
+       .form h1{
+        font-size: 20px;
+        padding: 35px 0px 0px;
+       }
+       .form p{
+        font-size: 11px;
+        margin: 4px 0px 13px;
+       }
+       .btn-primary{
+        padding: 8px;
+        font-size: 12px;
+       }
+       .form img{
+        width: 82%;
+        height: 165px;
+        text-align: center;
+        padding: 10px;
+       }
+       .bannerleft{
+        width: 85%;
+        padding: 10px 0px 0px;
+       }
+       .inerright{
+        width: 85%;
+        padding: 0px;
+       }
+       .bannerright{
+        padding: 10px 0px 0px;
+        text-align: center;
+       }
+       .bannerright h1{
+        font-size: 22px;
+       }
+       .bannerright p{
+        font-size: 13px;
+        margin: 0px;
+       }
+
+       .loginform{
+        padding: 20px 0px;
+       }
+       .formgroup h1{
+        width: 100%;
+        font-size: 17px;
+        text-align: center;
+        margin: 0px;
+       }
+       .formgroup p{
+        font-size: 12px;
+        text-align: center;
+        margin: 0px 0px 15px;
+       }
+       .formcontrol{
+        margin: 0px 36px 12px;
+        width: 83%;
+       }
+       .formcontrol h3{
+        font-size: 15px;
+       }
+       .formcontrol p{
+        width: 85%;
+        font-size: 12px;
+       }
+       .imag{
+        width: 63%;
+        margin: 0px 80px;
+       }
+       .logu{
+
+        }
+        .inerlogu{
+        width: 43%;
+        transform: translate(80px, -126px);
+        }
+        .inerlogu h1{
+        font-size: 20px;
+        }
+        .inerlogu p{
+        font-size: 14px;
+        }
+
+       .focus{
+        padding: 25px 0px 0px;
+       }
+       .col12 h2{
+        font-size: 20px;
+       }
+       .col12 p{
+        font-size: 12px;
+        margin: 0px;
+        line-height: 1.2em;
+       }
+       .inerbox1{
+        padding: 12px 10px 0px;
+       }
+       .inerbox{
+        padding: 20px 18px;
+        width: 50%;
+        margin: 0px 111px;
+       }
+       .beautiful{
+        padding: 25px 0px 0px;
+       }
+       .feature{
+        padding: 10px 0px ;
+       }
+       .inerfeature{
+        width: 70%;
+        margin: 0px 64px
+       }
+       .footer{
+        margin: 0px 75px;
+        padding: 9px;
+       }
+       .footer p{
+        font-size: 10px;
+       }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .container{
+        width: 90%;
+        margin: 0px auto;
+       }
+       .row{
+        width: 100%;
+        float: left;
+       }
+       .col12{
+        width: 100%;
+        float: left;
+       }
+       .col6{
+        width: 100%;
+        float: left;
+       }
+       .col3{
+        width: 100%;
+        float: left;
+       }
+       .col6 h2{
+        font-size: 21px;
+        text-align: center;
+       }
+       .menu {
+        display: block;
+        text-align: center;
+       }
+       .menu li a{
+        font-size: 13px;
+        padding: 16px;
+       }
+       .form{
+        padding: 25px 0px 0px;
+       }
+       .form h1{
+        font-size: 26px;
+        padding: 50px 0px 0px;
+       }
+       .form p{
+        font-size: 12px;
+        margin: 4px 0px 13px;
+       }
+       .btn-primary{
+        padding: 10px 20px;
+        font-size: 13px;
+        margin: 4px 0px 18px;
+       }
+       .form img{
+        width: 88%;
+        height: 300px;
+       }
+       .bannerleft{
+        width: 75%;
+        margin: 0px 88px;
+   
+       }
+        .inerright{
+        width: 75%;
+        margin: 0px 88px;
+       }
+       .bannerright{
+        padding: 10px 0px 0px;
+        text-align: center;
+       } 
+       .bannerright h1{
+        font-size: 22px 0px 0px;
+       }
+       .bannerright p{
+        font-size: 13px;
+        margin: 0px;
+       }
+
+       
+       .loginform{
+        padding: 20px 0px;
+       }
+       .formgroup h1{
+        width: 100%;
+        font-size: 17px;
+        text-align: center;
+        margin: 0px;
+       }
+       .formgroup p{
+        font-size: 12px;
+        text-align: center;
+        margin: 0px 0px 15px;
+       }
+       .formcontrol{
+        margin: 0px 130px 12px;
+        width: 62%;
+       }
+       .formcontrol h3{
+        font-size: 15px;
+       }
+       .formcontrol p{
+        width: 85%;
+        font-size: 12px;
+       }
+       .imag{
+        width: 63%;
+        margin: 0px 125px;
+       }
+       .logu{
+
+        }
+        .inerlogu{
+        width: 46%;
+        transform: translate(122px, -126px);
+        }
+        .inerlogu h1{
+        font-size: 20px;
+        }
+        .inerlogu p{
+        font-size: 14px;
+        }
+
+       .focus{
+        padding: 12px 0px 0px;
+       }
+       .col12 h2{
+        font-size: 22px;
+       }
+       .col12 p{
+        font-size: 12px;
+        margin: 3px;
+        line-height: 1.2em;
+       }
+       .inerbox1{
+        padding: 12px 10px 0px;
+       }
+       .inerbox{
+        padding: 20px 18px;
+        width: 50%;
+        margin: 0px 198px;
+       }
+       .beautiful{
+        padding: 35px 0px 0px;
+       }
+       .feature{
+        padding: 10px 0px ;
+       }
+       .inerfeature{
+        width: 45%;
+        margin: 0px 191px;
+       }
+       .footer{
+        margin: 0px 120px;
+        padding: 15px;
+       }
+       .footer p{
+        font-size: 12px;
+       }
+}
